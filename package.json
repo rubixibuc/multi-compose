@@ -2,14 +2,14 @@
   "name": "multicompose",
   "version": "0.1.0",
   "description": "compose multiple instances of the same enhance function",
-  "main": "dist/placeholder.js",
+  "main": "dist/multicompose.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "placeholder"
+    "url": "https://github.com/rubixibuc/multicompose.git"
   },
   "keywords": [
     "compose",
