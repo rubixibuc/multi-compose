@@ -4,9 +4,9 @@ module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    library: 'multicompose',
+    library: 'multi-compose',
     libraryTarget: 'umd',
-    filename: 'multicompose.js',
+    filename: 'multi-compose.js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
