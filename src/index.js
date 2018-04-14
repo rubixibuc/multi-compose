@@ -1,7 +1,7 @@
 import { compose } from 'recompose';
 import _ from 'lodash';
 
-export const multiCompose = (...sharedHocs) => (
+export default (...sharedHocs) => (
     instanceMap,
     left
 ) => component =>
