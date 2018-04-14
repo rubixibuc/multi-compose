@@ -1,14 +1,11 @@
 import { compose } from 'recompose';
 import _ from 'lodash';
 
-export default (...sharedHocs) => (
+export default (...sharedHocs) => (instanceMap, left) => component =>
+  _.mapValues(
     instanceMap,
-    left
-) => component =>
-    _.mapValues(
-        instanceMap,
-        instanceHocs =>
-            left
-                ? compose(...instanceHocs, ...sharedHocs)(component)
-                : compose(...sharedHocs, ...instanceHocs)(component)
-    );
+    instanceHocs =>
+      left
+        ? compose(...instanceHocs, ...sharedHocs)(component)
+        : compose(...sharedHocs, ...instanceHocs)(component)
+  );
