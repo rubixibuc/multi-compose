@@ -1,6 +1,6 @@
 {
   "name": "multi-compose",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "compose multiple instances of the same enhance function",
   "main": "dist/multi-compose.js",
   "scripts": {
@@ -31,5 +31,7 @@
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   },
-  "files": ["dist/multi-compose.js"]
+  "files": [
+    "dist/multi-compose.js"
+  ]
 }
