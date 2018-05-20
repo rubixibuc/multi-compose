@@ -8,7 +8,7 @@ import multiCompose from 'multi-compose';
 
 const multiComponent = multiCompose(
   withState('getter', 'setter'),
-  // any hoc can go here
+  // any HOC can go here
   // these will be the same across all instances
 )(
   {
