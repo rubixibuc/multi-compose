@@ -8,7 +8,7 @@ import multiCompose from 'multi-compose';
 
 const multiComponent = multiCompose(
   withState('getter', 'setter'),
-  // any HOC can go here
+  // additional HOCS
   // these will be the same across all instances
 )(
   {
@@ -20,13 +20,12 @@ const multiComponent = multiCompose(
       connect(/** connect component */)
       // additional HOCS
     ]
-    // any hoc can go here
-    // each will belong to a single instance
+    // additional instances
   },
   true // true if instance HOCS should be composed first
 )((props) => (<div/>));
 
-// created to differently connected components 
+// created two differently connected components 
 // with everything else the same
 
 const connectedComponent1 = multiComponent.instance1;
