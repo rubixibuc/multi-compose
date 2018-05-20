@@ -2,7 +2,6 @@
 
 ```jsx harmony
 import React from 'react';
-import {withState} from 'recompose'
 import { withState } from 'recompose';
 import { connect } from 'react-redux';
 import multiCompose from 'multi-compose';
