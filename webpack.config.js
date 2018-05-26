@@ -1,4 +1,5 @@
 var path = require('path');
+var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   mode: 'production',
@@ -18,8 +19,5 @@ module.exports = {
       }
     ]
   },
-  externals: {
-    lodash: true,
-    recompose: true
-  }
+  externals: [nodeExternals()]
 };
