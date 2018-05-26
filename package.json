@@ -19,8 +19,8 @@
   "author": "rubixibuc",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.5",
-    "recompose": "^0.26.0"
+    "lodash": ">=2.4.0",
+    "recompose": ">=0.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
