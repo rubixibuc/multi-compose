@@ -9,3 +9,4 @@ deploy:
   on:
     tags: true
     repo: rubixibuc/multi-compose
+  skip_cleanup: true
