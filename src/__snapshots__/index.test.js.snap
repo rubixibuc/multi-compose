@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multi-compose should create two left instances of a shared composed component 1`] = `
+<withProps(withProps(withProps(Component)))>
+  <withProps(withProps(Component))
+    instanceProp="instanceProp1"
+  >
+    <withProps(Component)
+      instanceProp="instanceProp1"
+      sharedProp1="sharedProp1"
+    >
+      <Component
+        instanceProp="instanceProp1"
+        sharedProp1="sharedProp1"
+        sharedProp2="sharedProp2"
+      >
+        sharedProp1sharedProp2instanceProp1
+      </Component>
+    </withProps(Component)>
+  </withProps(withProps(Component))>
+</withProps(withProps(withProps(Component)))>
+`;
+
+exports[`multi-compose should create two left instances of a shared composed component 2`] = `
+<withProps(withProps(withProps(Component)))>
+  <withProps(withProps(Component))
+    instanceProp="instanceProp2"
+  >
+    <withProps(Component)
+      instanceProp="instanceProp2"
+      sharedProp1="sharedProp1"
+    >
+      <Component
+        instanceProp="instanceProp2"
+        sharedProp1="sharedProp1"
+        sharedProp2="sharedProp2"
+      >
+        sharedProp1sharedProp2instanceProp2
+      </Component>
+    </withProps(Component)>
+  </withProps(withProps(Component))>
+</withProps(withProps(withProps(Component)))>
+`;
