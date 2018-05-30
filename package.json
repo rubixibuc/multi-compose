@@ -42,6 +42,7 @@
     "dist/multi-compose.js"
   ],
   "jest": {
+    "collectCoverage": true,
     "setupTestFrameworkScriptFile": "./src/setupTests.js",
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
