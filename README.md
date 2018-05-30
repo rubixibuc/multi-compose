@@ -1,3 +1,5 @@
+![Travis](https://travis-ci.org/rubixibuc/multi-compose.svg?branch=master)
+
 # multi-compose
 
 ```jsx harmony

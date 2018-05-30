@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multi-compose should create two left instances of a shared composed component 1`] = `
+<withProps(withProps(withProps(withProps(Component))))>
+  <withProps(withProps(withProps(Component)))
+    instanceProp1="instance1Prop1"
+  >
+    <withProps(withProps(Component))
+      instanceProp1="instance1Prop1"
+      instanceProp2="instance1Prop2"
+    >
+      <withProps(Component)
+        instanceProp1="instance1Prop1"
+        instanceProp2="instance1Prop2"
+        sharedProp1="sharedProp1"
+      >
+        <Component
+          instanceProp1="instance1Prop1"
+          instanceProp2="instance1Prop2"
+          sharedProp1="sharedProp1"
+          sharedProp2="sharedProp2"
+        >
+          sharedProp1 sharedProp2 instance1Prop1 instance1Prop2
+        </Component>
+      </withProps(Component)>
+    </withProps(withProps(Component))>
+  </withProps(withProps(withProps(Component)))>
+</withProps(withProps(withProps(withProps(Component))))>
+`;
+
+exports[`multi-compose should create two left instances of a shared composed component 2`] = `
+<withProps(withProps(withProps(withProps(Component))))>
+  <withProps(withProps(withProps(Component)))
+    instanceProp1="instance2Prop1"
+  >
+    <withProps(withProps(Component))
+      instanceProp1="instance2Prop1"
+      instanceProp2="instance2Prop2"
+    >
+      <withProps(Component)
+        instanceProp1="instance2Prop1"
+        instanceProp2="instance2Prop2"
+        sharedProp1="sharedProp1"
+      >
+        <Component
+          instanceProp1="instance2Prop1"
+          instanceProp2="instance2Prop2"
+          sharedProp1="sharedProp1"
+          sharedProp2="sharedProp2"
+        >
+          sharedProp1 sharedProp2 instance2Prop1 instance2Prop2
+        </Component>
+      </withProps(Component)>
+    </withProps(withProps(Component))>
+  </withProps(withProps(withProps(Component)))>
+</withProps(withProps(withProps(withProps(Component))))>
+`;
+
+exports[`multi-compose should create two right instances of a shared composed component 1`] = `
+<withProps(withProps(withProps(withProps(Component))))>
+  <withProps(withProps(withProps(Component)))
+    sharedProp1="sharedProp1"
+  >
+    <withProps(withProps(Component))
+      sharedProp1="sharedProp1"
+      sharedProp2="sharedProp2"
+    >
+      <withProps(Component)
+        instanceProp1="instance1Prop1"
+        sharedProp1="sharedProp1"
+        sharedProp2="sharedProp2"
+      >
+        <Component
+          instanceProp1="instance1Prop1"
+          instanceProp2="instance1Prop2"
+          sharedProp1="sharedProp1"
+          sharedProp2="sharedProp2"
+        >
+          sharedProp1 sharedProp2 instance1Prop1 instance1Prop2
+        </Component>
+      </withProps(Component)>
+    </withProps(withProps(Component))>
+  </withProps(withProps(withProps(Component)))>
+</withProps(withProps(withProps(withProps(Component))))>
+`;
+
+exports[`multi-compose should create two right instances of a shared composed component 2`] = `
+<withProps(withProps(withProps(withProps(Component))))>
+  <withProps(withProps(withProps(Component)))
+    sharedProp1="sharedProp1"
+  >
+    <withProps(withProps(Component))
+      sharedProp1="sharedProp1"
+      sharedProp2="sharedProp2"
+    >
+      <withProps(Component)
+        instanceProp1="instance2Prop1"
+        sharedProp1="sharedProp1"
+        sharedProp2="sharedProp2"
+      >
+        <Component
+          instanceProp1="instance2Prop1"
+          instanceProp2="instance2Prop2"
+          sharedProp1="sharedProp1"
+          sharedProp2="sharedProp2"
+        >
+          sharedProp1 sharedProp2 instance2Prop1 instance2Prop2
+        </Component>
+      </withProps(Component)>
+    </withProps(withProps(Component))>
+  </withProps(withProps(withProps(Component)))>
+</withProps(withProps(withProps(withProps(Component))))>
+`;
