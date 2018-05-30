@@ -1,6 +1,8 @@
-![Travis](https://travis-ci.org/rubixibuc/multi-compose.svg?branch=master)
-
 # multi-compose
+
+![Travis](https://travis-ci.org/rubixibuc/multi-compose.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/multi-compose/badge.svg)](https://coveralls.io/github/rubixibuc/multi-compose)
+
+### Example
 
 ```jsx harmony
 import React from 'react';
