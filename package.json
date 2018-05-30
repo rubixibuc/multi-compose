@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx,json,css}\" ./webpack.config.js",
-    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test-dev": "jest"
   },
   "repository": {
     "type": "git",
