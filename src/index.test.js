@@ -1,6 +1,6 @@
 import React from 'react';
 import multiCompose from './index';
-import { shallow, mount } from 'enzyme';
+import { mount } from 'enzyme';
 import { withProps } from 'recompose';
 
 describe('multi-compose', () => {
