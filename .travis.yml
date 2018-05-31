@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "8"
+before_deploy: npm run build
 deploy:
   provider: npm
   email: rubixibuc@gmail.com
@@ -9,3 +10,4 @@ deploy:
   on:
     tags: true
     repo: rubixibuc/multi-compose
+  skip_cleanup: true
