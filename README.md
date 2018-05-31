@@ -1,4 +1,4 @@
-![Travis](https://travis-ci.org/rubixibuc/multi-compose.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/multi-compose/badge.svg)](https://coveralls.io/github/rubixibuc/multi-compose)
+[![Build Status](https://travis-ci.org/rubixibuc/multi-compose.svg?branch=master)](https://travis-ci.org/rubixibuc/multi-compose) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/multi-compose/badge.svg)](https://coveralls.io/github/rubixibuc/multi-compose)
 
 # multi-compose
 
