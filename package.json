@@ -20,7 +20,7 @@
   "author": "rubixibuc",
   "license": "ISC",
   "dependencies": {
-    "lodash": ">=2.4.0",
+    "lodash": "^4.17.15",
     "recompose": ">=0.2.1"
   },
   "devDependencies": {
