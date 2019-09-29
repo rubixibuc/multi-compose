@@ -32,7 +32,6 @@ export default multiCompose(
     Instance1: [
       connect(state => ({prop: state.prop1})) // state.prop1 = 'a'
       // ...
-      
     ],
     Instance2: [
       connect(state => ({prop: state.prop2})) // state.prop1 = 'b'
